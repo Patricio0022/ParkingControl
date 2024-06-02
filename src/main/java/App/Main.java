@@ -69,7 +69,7 @@ public class Main {
         String exitTime1 = "2024-06-01T14:45:00";
 
 
-
+       //primeiro registro de entrada de veiculo no estacionamento
         Parking register1 = new Parking(1L, null, null, vehicle1, spaceS1);
         register1.setEntry(entryTime1);
         register1.setExit(exitTime1);
@@ -99,6 +99,8 @@ public class Main {
         String entryTime2 = "2024-06-01T08:00:00";
         String exitTime2 = "2024-06-02T15:00:00";
 
+        //segundo registro de entrada de veiculo no estacionamento
+
         Parking register2 = new Parking(2L, null, null, vehicle1, spaceS1);
         register2.setEntry(entryTime2);
         register2.setExit(exitTime2);
@@ -116,6 +118,8 @@ public class Main {
         m1.add(register2); // adicionando o registro à lista do pátio m1
 
         System.out.println("Car: " + register2);
+
+        //espaço para mais registros
 
         System.out.println("---------------------------------------------------------");
 

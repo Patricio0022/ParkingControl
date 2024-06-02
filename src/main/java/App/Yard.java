@@ -46,6 +46,12 @@ public class Yard {
     }
 
 
-
-
+    @Override
+    public String toString() {
+        return " Yard{" +
+                "id=" + id +
+                ", description='" + description + '\'' +
+                ", tax=" + tax +
+                '}';
+    }
 }

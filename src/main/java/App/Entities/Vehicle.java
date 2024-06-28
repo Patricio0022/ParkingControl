@@ -1,4 +1,4 @@
-package App;
+package App.Entities;
 
 public class Vehicle {
 

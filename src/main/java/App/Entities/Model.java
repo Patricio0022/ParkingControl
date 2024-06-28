@@ -1,16 +1,15 @@
-package App;
+package App.Entities;
 
-public class Color {
+public class Model {
 
     private Long id;
     private String name;
 
 
-    public Color(Long id, String name) {
+    public Model(Long id, String name) {
         this.id = id;
         this.name = name;
     }
-
 
     public Long getId() {
         return id;
@@ -28,15 +27,10 @@ public class Color {
         this.name = name;
     }
 
+
     @Override
     public String toString() {
         return " id: " + id + " name: " + name ;
     }
 
-
-
 }
-
-
-
-

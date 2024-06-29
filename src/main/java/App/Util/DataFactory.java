@@ -13,18 +13,17 @@ public class DataFactory {
 
 
 
-    @Contract(" -> new")
-    @NotNull
-    public static List<Parking> Parking1(){
-        return new ArrayList<>();
+    private static final List<Parking> parking1 = new ArrayList<>();
+    private static final List<Parking> parking2 = new ArrayList<>();
 
+    @NotNull
+    public static List<Parking> Parking1() {
+        return parking1;
     }
 
-    @Contract(" -> new")
     @NotNull
-    public static List<Parking> Parking2(){
-        return new ArrayList<>();
-
+    public static List<Parking> Parking2() {
+        return parking2;
     }
 
    // List<Parking> m1 = new ArrayList<>(); // registro de estacionamento primeiro patio

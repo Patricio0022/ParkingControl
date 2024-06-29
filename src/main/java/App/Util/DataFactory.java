@@ -26,8 +26,6 @@ public class DataFactory {
         return parking2;
     }
 
-   // List<Parking> m1 = new ArrayList<>(); // registro de estacionamento primeiro patio
-   // List<Parking> s2 = new ArrayList<>(); // registro de estacionamento segundo patio
 
     public static List<Yard> createYards(){
         List<Yard> yards = new ArrayList<>();
@@ -113,9 +111,4 @@ public class DataFactory {
         return customers;
     }
 
-
-
-
-
-    // instancias
 }
